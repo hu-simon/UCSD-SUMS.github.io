@@ -1,0 +1,15 @@
+<ul>
+  $for(events)$
+  <li class="event-listing">
+    <h3><a href="$url$">$title$</a></h3>
+    <div class="event-meta">
+      <p>Date: $date$</p>
+      <p>Location: $if(location)$$location$$else$TBD$endif$</p>
+    </div>
+    <div class="event-teaser">
+      $teaser$...
+      <span class="event-teaser-more"><a href="$url$">read more</a></span>
+     </div>
+  </li>
+  $endfor$
+</ul>

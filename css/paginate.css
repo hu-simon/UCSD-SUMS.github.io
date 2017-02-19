@@ -1,0 +1,10 @@
+#pagination ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#pagination li {
+    float: left;
+    padding: 0.5em;
+}

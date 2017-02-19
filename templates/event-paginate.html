@@ -1,0 +1,13 @@
+<nav id="pagination">
+  <ul>
+    $for(pages)$
+    <li>
+      $if(isCurrent)$
+      $qa$
+      $else$
+      <a href="$url$">$qa$</a>
+      $endif$
+    </li>
+    $endfor$
+</nav>
+$partial("templates/event-list.html")$

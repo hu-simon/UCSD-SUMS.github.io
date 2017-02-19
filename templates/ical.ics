@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UCSD-SUMS//Custom Hakyll Website Template
+CALSCALE:GREGORIAN
+NAME:UCSD SUMS Events
+X-WR-CALNAME:UCSD SUMS Events
+X-WR-TIMEZONE:America/Los_Angeles
+$for(events)$BEGIN:VEVENT
+UID:event-$uid$@sums.ucsd.edu
+DTSTAMP$lastmodified$
+DTSTART$start$$if(end)$
+DTEND$end$$endif$$if(location)$
+LOCATION:$location$$endif$
+SUMMARY:$title$
+URL:http://sums.ucsd.edu/$url$
+END:VEVENT
+$endfor$END:VCALENDAR
