@@ -1,0 +1,21 @@
+machine:
+  ghc:
+    version: 8.0.2
+    timezone: America/Los_Angeles
+test:
+  post:
+    - cabal run build
+deployment:
+  hakyll:
+    branch: hakyll
+    commands:
+      - git clone git@github.com:ucsd-sums/ucsd-sums.github.io --branch master deploy
+      - cp -r _site/* deploy
+      - git config --global user.email circleci@circleci.com:
+      - git config --global user.name CircleCI:
+      - git add -a:
+          pwd: deploy
+      - git commit -m "Site update: $(date '+%F %T %Z') [ci skip]":
+          pwd: deploy
+      - git push origin master:
+          pwd: deploy
