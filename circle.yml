@@ -17,8 +17,6 @@ deployment:
       - cp -r _site/* deploy
       - git config --global user.email circleci@circleci.com:
       - git config --global user.name CircleCI:
-      - git add -a:
-          pwd: deploy
+      - cd deploy && git add -a
       - cd deploy && git commit -m "Site update: $(date '+%F %T %Z') [ci skip]"
-      - git push origin master:
-          pwd: deploy
+      - cd deploy && git push origin master
