@@ -1,3 +1,7 @@
+general:
+  branches:
+    ignore:
+      - master
 machine:
   ghc:
     version: 8.0.2
