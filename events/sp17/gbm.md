@@ -2,7 +2,6 @@
 title: Spring GBM
 start: 2017-04-06 18:00:00
 location: AP&M B402A
-quarter: sp17
 future: true
 ---
 

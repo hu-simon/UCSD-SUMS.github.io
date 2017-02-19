@@ -2,7 +2,6 @@
 title: "Winter Lightning Talk #2"
 start: 2017-02-24 17:00:00
 end: 2017-02-24 18:05:00
-quarter: wi17
 future: true
 ---
 "Lightning Talks" are short presentation meant to introduce a topic to

@@ -3,7 +3,6 @@ title: "LaTeX Workshop"
 start: 2017-02-17 14:00:00
 end: 2017-02-17 16:00:00
 location: AP&M 6402
-quarter: wi17
 ---
 Latex is a markup language, like HTML, that gives you a way to type up
 mathematical documents that looks clean and professional.

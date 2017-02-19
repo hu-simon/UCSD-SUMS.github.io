@@ -2,7 +2,6 @@
 title: "Winter Lightning Talk #3"
 start: 2017-03-17 17:00:00
 end: 2017-03-17 18:05:00
-quarter: wi17
 future: true
 ---
 

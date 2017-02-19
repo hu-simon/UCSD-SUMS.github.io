@@ -62,19 +62,18 @@ main = hakyll $ do
 
     pag <- buildPaginateWith quarterGrouper "events/*/*" eventPageId
     paginateRules pag $ \num pat -> do
-      let q num = fmap fromQuarter
+      let q num = fromQuarter
                 . getQuarter
                 . head
                 . fromJust
                 . M.lookup num
                 $ paginateMap pag
-      thisQ <- q num
+      let thisQ = q num
       route $ customRoute $ \_ -> "events-" ++ thisQ ++ ".html"
-      allQs <- sequence
-             . reverse
-             . M.elems
-             . M.mapWithKey (curry $ sequence . (id *** getQuarter . head))
-             $ paginateMap pag
+      let allQs = reverse
+                . M.elems
+                . M.mapWithKey (curry $ (id *** getQuarter . head))
+                $ paginateMap pag
       let allQItems = sequence $ map makeItem allQs
       compile $ do
         events <- fmap reverse . chronological' =<< loadAll pat
@@ -106,11 +105,9 @@ main = hakyll $ do
       -- upcoming event and then reverse-looking-up
       compile $ do
         event <- ((head <$> (nextNEvents 1 =<< loadAll "events/*/*")) :: Compiler (Item String))
-        q <- getQuarter (itemIdentifier event)
-        n <- fmap (fst . M.findMin . M.filter ((q==) . snd))
-           . sequence
-           $ M.map (sequence . (id &&& getQuarter . head))
-                   (paginateMap pag)
+        let q = getQuarter (itemIdentifier event)
+        let n = fst . M.findMin . M.filter ((q==) . snd)
+              $ M.map ((id &&& getQuarter . head)) (paginateMap pag)
         loadBody (eventPageId n) >>= makeItem :: Compiler (Item String)
 
     create ["events.ics"] $ do
@@ -243,13 +240,13 @@ itemTime' fmts f =  tryFormats fmts
         tryFormats fmts s = maybe (fail "No time parse") return . msum $
           map (\x -> parseTimeM True defaultTimeLocale x s) fmts
 
-getQuarter :: MonadMetadata m => Identifier -> m Quarter
-getQuarter = fmap toQuarter . flip getMetadataField' "quarter"
+getQuarter :: Identifier -> Quarter
+getQuarter = toQuarter . head . fromJust . capture (fromGlob "events/*/*")
 
 quarterGrouper :: [Identifier] -> Rules [[Identifier]]
-quarterGrouper = fmap compareQuarters . annotateQuarters
-  where annotateQuarters :: [Identifier] -> Rules [(Identifier, Quarter)]
-        annotateQuarters = mapM $ sequence . (id &&& getQuarter)
+quarterGrouper = return . compareQuarters . annotateQuarters
+  where annotateQuarters :: [Identifier] -> [(Identifier, Quarter)]
+        annotateQuarters = map (id &&& getQuarter)
         compareQuarters :: [(Identifier, Quarter)] -> [[Identifier]]
         compareQuarters = fmap (fst<$>) . groupBy ((==) `on` snd)
                         . sortBy (comparing (Down . snd))

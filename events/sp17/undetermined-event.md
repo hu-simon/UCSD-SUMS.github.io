@@ -1,7 +1,6 @@
 ---
 title: "(Undetermined Event)"
 start: 2017-05-12
-quarter: sp17
 future: true
 ---
 
