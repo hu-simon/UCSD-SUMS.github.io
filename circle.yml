@@ -5,7 +5,7 @@ general:
 machine:
   ghc:
     version: 8.0.2
-    timezone: America/Los_Angeles
+  timezone: America/Los_Angeles
 test:
   post:
     - cabal run build
