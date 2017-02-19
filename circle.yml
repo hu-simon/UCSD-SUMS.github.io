@@ -19,7 +19,6 @@ deployment:
       - git config --global user.name CircleCI:
       - git add -a:
           pwd: deploy
-      - git commit -m "Site update: $(date '+%F %T %Z') [ci skip]":
-          pwd: deploy
+      - cd deploy && git commit -m "Site update: $(date '+%F %T %Z') [ci skip]"
       - git push origin master:
           pwd: deploy
