@@ -18,5 +18,6 @@ deployment:
       - git config --global user.email circleci@circleci.com
       - git config --global user.name CircleCI
       - cd deploy && git add -a
-      - cd deploy && git commit -m "Site update: $(date '+%F %T %Z') [ci skip]"
+      - |
+          cd deploy && git commit -m "Site update: $(date '+%F %T %Z') [ci skip]"
       - cd deploy && git push origin master
