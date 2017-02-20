@@ -21,4 +21,4 @@ deployment:
       - |
           cd deploy && git commit -m "Site update: $(date '+%F %T %Z') [ci skip]"
       - cd deploy && git push origin master
-      - rsync -azr _site/ sums@acsweb.ucsd.edu:/public_html/
+      - rsync -zr _site/ sums@acsweb.ucsd.edu:~/public_html/
