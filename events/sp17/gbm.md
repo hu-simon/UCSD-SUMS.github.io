@@ -1,9 +1,22 @@
 ---
 title: Spring GBM
-start: 2017-04-06 18:00:00
+start: 2017-04-06 18:00:00 Z
+end: 2017-04-06 19:00:00 Z
+location: AP&M B402A
+future: true
 location: AP&M B402A
 future: true
 ---
 
-This will be our General Body Meeting for Spring Quarter. Description
-TBD.
+This event is the first general business meeting for the newly formed Society of Undergraduate Mathematics Students at UCSD.
+If you're interested in attending, please fill out the [RSVP Form](https://tinyurl.com/sums-gbm-sp17)
+
+Here is an outline of what we will be discussing at this meeting:
+
+- The purpose of SUMS.
+- Upcoming events for the Spring quarter.
+- How to get involved with the organization.
+
+Please drop by if you are interested in attending any upcoming club events, or getting involved with the club in an official capacity for the 2017-2018 school year.
+
+(There will be **free food**!)

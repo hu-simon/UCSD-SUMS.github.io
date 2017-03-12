@@ -1,10 +1,9 @@
 ---
-title: "Winter Lightning Talk #3"
-start: 2017-03-17 17:00:00
-end: 2017-03-17 18:05:00
-future: true
+title: 'Winter Lightning Talk #3'
+location: AP&M 7421
+start: 2017-03-17 17:00:00 Z
+end: 2017-03-17 18:30:00 Z
 ---
-
 "Lightning Talks" are short presentation meant to introduce a topic to
 audiences of all backgrounds.
 
@@ -18,5 +17,17 @@ If you'd like to give a talk, sign up at
 As usual, there will also be raffle for a free Math book!
 
 # Agenda
-- Talks TBD (5:00 - 6:00)
+- Talks (5:05 - 6:05)
+    - Talk 1
+        The Mathematical Theory of Brownian Motion
+        (Kim Udomprapasup)
+
+        This talk will discuss the mathematical theory of Brownian Motion, beginning with its description and some of its interesting properties. We will also explore its connections to other areas of mathematics, including Harmonic Analysis and PDEs.
+
+        If time permits, we will also briefly discuss Stochastic Calculus.
+
+        Background Required:
+        Calculus and basic probability theory - expectation, mean, variance, distributions, etc. Some knowledge of Real Analysis and Differential Equations will also be helpful to appreciate the later topics.
+
 - Raffle (6:00 - 6:05)
+    This month's book will be related to Brownian motion!
