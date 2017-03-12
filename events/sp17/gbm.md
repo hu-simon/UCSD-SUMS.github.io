@@ -1,9 +1,7 @@
 ---
 title: Spring GBM
-start: 2017-04-06 18:00:00 Z
-end: 2017-04-06 19:00:00 Z
-location: AP&M B402A
-future: true
+start: 2017-04-06 18:00:00
+end: 2017-04-06 19:00:00
 location: AP&M B402A
 future: true
 ---
