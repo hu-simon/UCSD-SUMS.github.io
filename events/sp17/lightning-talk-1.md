@@ -2,6 +2,7 @@
 title: "Spring Lightning Talk #1"
 start: 2017-04-28 17:00:00
 end: 2017-04-28 18:05:00
+location: AP&M 7421
 future: true
 ---
 

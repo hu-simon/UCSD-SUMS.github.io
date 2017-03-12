@@ -3,6 +3,7 @@ title: 'Winter Lightning Talk #3'
 location: AP&M 7421
 start: 2017-03-17 17:00:00
 end: 2017-03-17 18:30:00
+future: true
 ---
 "Lightning Talks" are short presentation meant to introduce a topic to
 audiences of all backgrounds.
