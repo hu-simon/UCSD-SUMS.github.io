@@ -2,7 +2,7 @@
 title: Spring GBM
 start: 2017-04-06 18:00:00
 end: 2017-04-06 19:00:00
-location: AP&M B402A
+location: Dolores Huertas Room
 future: true
 ---
 
