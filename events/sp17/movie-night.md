@@ -11,6 +11,7 @@ Come join us to watch a fun Math-related movie!
 Join the #events channel in Slack to vote on which movie we'll be watching.
 
 The current top choices are:
+
 - A Beautiful Mind
 - The Imitation Game
 - The Man Who Knew Infinity
