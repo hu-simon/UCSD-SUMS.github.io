@@ -1,7 +1,7 @@
 ---
 title: Spring GBM
-start: 2017-04-06 18:00:00
-end: 2017-04-06 19:00:00
+start: 2017-04-06 16:00:00
+end: 2017-04-06 17:00:00
 location: Dolores Huertas Room
 future: true
 ---
