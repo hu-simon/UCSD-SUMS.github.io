@@ -2,6 +2,13 @@
 
 If you'd like to give a talk this quarter, just fill out the form below!
 
+This quarter's talks will be in AP&M 7421, and will be at the following
+dates and times:
+
+- Friday, April 28th, 5-6:30pm
+
+- Friday, May 26th, 5-6:30pm
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvZBygq498xuoHpTXOkkHfwFx9JU_KYSmaUtcXKwgr3ml71Q/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 # Past Talks
