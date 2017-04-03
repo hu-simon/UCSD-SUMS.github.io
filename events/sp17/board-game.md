@@ -3,6 +3,7 @@ title: "Board Game Night"
 start: 2017-05-05 14:00:00
 end: 2017-05-05 16:00:00
 location: Unknown
+future: true
 ---
 
 Join us for a night of playing board games! We will have a few games to choose from, but everyone is encouraged to bring their own favorite games and teach others how to play.
