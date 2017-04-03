@@ -1,7 +1,7 @@
 # UCSD-SUMS.github.io
 This repository contains the files that generate the SUMS website.
 
-Built with [Hakyll](https://jaspervdj.be/hakyll/) [![CircleCI](https://circleci.com/gh/UCSD-SUMS/UCSD-SUMS.github.io/tree/master.svg?style=svg)](https://circleci.com/gh/UCSD-SUMS/UCSD-SUMS.github.io/tree/hakyll)
+Built with [Hakyll](https://jaspervdj.be/hakyll/) [![CircleCI](https://circleci.com/gh/UCSD-SUMS/UCSD-SUMS.github.io/tree/hakyll.svg?style=svg)](https://circleci.com/gh/UCSD-SUMS/UCSD-SUMS.github.io/tree/hakyll)
 
 # Installation
 - Install [Stack](https://www.haskellstack.org/)
