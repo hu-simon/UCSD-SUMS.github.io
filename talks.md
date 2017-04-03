@@ -1,3 +1,5 @@
 # Talks
 
-This page will detail what Lightning Talks are, and provide information on how to sign up.
+If you'd like to give a talk this quarter, just fill out the form below!
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvZBygq498xuoHpTXOkkHfwFx9JU_KYSmaUtcXKwgr3ml71Q/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
