@@ -7,9 +7,13 @@ The Society for Undergraduate Mathematics Students hosts various seminars dealin
 
 # Officers and Positions
 ## 2016-2017
+
 President: D. Zack Garza
+
 Vice President and Treasurer: Aiden J. Yoon
+
 Secretary and Logistics: Simon Grey Hu
+
 Technology Coordinator: Peter Amidon
 
 ## 2017-2018
