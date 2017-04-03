@@ -1,8 +1,8 @@
 ---
 title: "Integration Bee"
-start: 2017-06-02
-future: true
+start: 2017-06-02 16:00:00
+end: 2017-06-02 19:00:00
+location: Undetermined
 ---
 
-Come join us for an evening of fun at the Integration Bee! More
-details TBD.
+Come compete in an [Integration Bee](https://www.youtube.com/watch?v=UNpa3-EGxGY)! Details pending.
