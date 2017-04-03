@@ -15,7 +15,16 @@ stack build
 stack exec site watch
 ```
 
+Once it is finished, you can then navigate to `localhost:8000` to see the site.
+
+
 # Updating Events
 
 All changes should be pushed to the `hakyll` branch, which kicks off the automated
 build and deploy process.
+
+After making a change, run the following:
+```
+stack exec site clean
+stack exec site watch
+```
