@@ -138,7 +138,7 @@ main = hakyll $ do
         compile $ do
           events <- nextNEvents 5 =<< loadAll "events/*/*"
           let indexCtx =
-                extraCss ["/css/gcal.css"]                  `mappend`
+                extraCss ["/css/gcal.css"] `mappend`
                 listField "events" eventCtx (return events) `mappend`
                 defaultContext
 
@@ -148,6 +148,12 @@ main = hakyll $ do
             >>= relativizeUrls
 
     match "business.md" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
+
+    match "talks.md" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
