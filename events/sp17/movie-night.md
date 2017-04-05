@@ -2,16 +2,11 @@
 title: Math movie night
 start: 2017-04-14 18:00:00
 end: 2017-04-14 21:00:00
-location: AP&M 6402
+location: AP&M 6402 (Halkins Seminar Room)
 future: true
 ---
 
-Come join us to watch a fun Math-related movie!
+Come join us for a night of fun entertainment, and of course, FREE FOOD!
 
-Join the #events channel in Slack to vote on which movie we'll be watching.
+We will be watching "A Beautiful Mind", a biographical drama depicting the life of Nobel Laureate John Nash. Preceding the Movie will be a short talk on Game Theory. 
 
-The current top choices are:
-
-- A Beautiful Mind
-- The Imitation Game
-- The Man Who Knew Infinity
