@@ -7,6 +7,13 @@ Built with [Hakyll](https://jaspervdj.be/hakyll/) [![CircleCI](https://circleci.
 - Install [Stack](https://www.haskellstack.org/)
 ```
 curl -sSL https://get.haskellstack.org/ | sh
+
+
+- Use Stack to install GHC
+```
+stack setup
+```
+
 ```
 - Use Stack to build and deploy locally
 ```
