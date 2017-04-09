@@ -12,6 +12,8 @@ President: D. Zack Garza
 
 Vice President and Treasurer: Aiden J. Yoon
 
+Publicity Chair: Keenan Chan
+
 Secretary and Logistics: Simon Grey Hu
 
 Technology Coordinator: Peter Amidon
