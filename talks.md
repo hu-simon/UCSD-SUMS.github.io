@@ -1,3 +1,7 @@
+---
+title: "Talks"
+---
+
 # Talks
 
 If you'd like to give a talk this quarter, just fill out the form below!
