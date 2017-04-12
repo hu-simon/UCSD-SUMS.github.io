@@ -1,3 +1,7 @@
+---
+title: "Business"
+---
+
 # Our Purpose
 We, the Society for Undergraduate Mathematics Students, would like to serve as a gathering place, as well as an academic and career resource, where all students interested in mathematics can further their involvement in the subject, meet other people with similar interests, and discover some of the opportunities mathematics has to offer.
 
