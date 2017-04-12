@@ -3,7 +3,6 @@ title: Spring GBM
 start: 2017-04-06 16:00:00
 end: 2017-04-06 17:00:00
 location: Dolores Huertas Room
-future: true
 ---
 
 This event is the first general business meeting for the newly formed Society of Undergraduate Mathematics Students at UCSD.
