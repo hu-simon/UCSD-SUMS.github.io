@@ -21,8 +21,8 @@ The film depicts his life at Princeton, including the development of the idea th
 There will also be a short talk before the movie introducing some of the mathematical ideas Nash is known for.
 
 ## Flyer
-<object data="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/Movie_Night.pdf" type="application/pdf" width="100%" height="600px">
-    <embed src="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/Movie_Night.pdf">
-        <a href="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/Movie_Night.pdf">Download PDF</a>.</p>
+<object data="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/Movie_Night.pdf" type="application/pdf" width="100%" height="600px">
+    <embed src="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/Movie_Night.pdf">
+        <a href="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/Movie_Night.pdf">Download PDF</a>.</p>
     </embed>
 </object>
