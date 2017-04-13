@@ -23,6 +23,6 @@ There will also be a short talk before the movie introducing some of the mathema
 ## Flyer
 <object data="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/Movie_Night.pdf" type="application/pdf" width="100%" height="600px">
     <embed src="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/Movie_Night.pdf">
-        This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/Movie_Night.pdf">Download PDF</a>.</p>
+        <a href="https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/Movie_Night.pdf">Download PDF</a>.</p>
     </embed>
 </object>
