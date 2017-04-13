@@ -11,6 +11,8 @@ A quarterly event in which we screen a film about mathematics!
 This year's theme is: "(In)Famous 20th Century Mathematicians"
 
 ## Screening: "A Beautiful Mind"
+![alt text](https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/events/sp17/movies.jpg "Logo Title Text 1")
+
 
 A biographical drama about the mathematician John Nash, who notably won the 1994 Nobel Prize in Economics for his pioneering contributions to Game Theory and the 2015 Abel Prize for his work in nonlinear partial differential equations.
 
