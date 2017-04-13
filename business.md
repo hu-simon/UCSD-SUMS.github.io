@@ -26,4 +26,5 @@ Technology Coordinator: Peter Amidon
 To be decided! Elections will be held June 2nd, 2017.
 
 # Minutes and Agendas
-These will be hosted soon.
+<iframe src="https://drive.google.com/embeddedfolderview?id=0BwCPreoqG6_cem1vTTlFaGZRbVE#list" style="width:100%; height:600px; border:0;"></iframe>
+
