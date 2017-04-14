@@ -76,7 +76,7 @@ main = hakyll $ do
                 $ paginateMap pag
       let allQItems = sequence $ map makeItem allQs
       compile $ do
-        events <- fmap reverse . chronological' =<< loadAll pat
+        events <- chronological' =<< loadAll pat
         let pageCtx =
               boolField "isCurrent" ((num==) . fst . itemBody)     `mappend`
               field "qa"  (return . fromQuarter . snd . itemBody)  `mappend`
