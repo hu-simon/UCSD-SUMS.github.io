@@ -9,7 +9,7 @@ future: true
 A quarterly event in which we screen a film about mathematics! 
 
 This year's theme is: "(In)Famous 20th Century Mathematicians"
-![Possible Movies](https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/movies.jpg)
+![Possible Movies](/static/sp17/movies.jpg)
 
 ## Screening: "A Beautiful Mind"
 
@@ -21,5 +21,5 @@ There will also be a short talk before the movie introducing some of the mathema
 
 ## Flyer
 
-[Download the Flyer](https://github.com/UCSD-SUMS/UCSD-SUMS.github.io/raw/hakyll/Movie_Night.pdf)
+[Download the Flyer](/static/sp17/Movie_Night.pdf)
 

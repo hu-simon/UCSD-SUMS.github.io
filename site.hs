@@ -40,7 +40,7 @@ fromQuarter (Spring (Year y)) = "sp" ++ show y
 
 main :: IO ()
 main = hakyll $ do
-    match "static/*" $ do
+    match "static/**" $ do
         route   idRoute
         compile copyFileCompiler
 
