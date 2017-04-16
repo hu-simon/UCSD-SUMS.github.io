@@ -1,7 +1,7 @@
 ---
 title: "Introductory LaTeX Workshop"
-start: 2017-04-21 14:00:00
-end: 2017-04-21 16:00:00
+start: 2017-04-20 14:00:00
+end: 2017-04-20 16:00:00
 location: AP&M 6402
 future: true
 ---
