@@ -1,8 +1,8 @@
 ---
 title: "Board Game Night"
-start: 2017-05-05 14:00:00
-end: 2017-05-05 16:00:00
-location: Unknown
+start: 2017-05-12 14:00:00
+end: 2017-05-12 16:00:00
+location: ERC Room
 future: true
 ---
 
